@@ -1,0 +1,38 @@
+html {
+    font-size: 62.5%; 
+}
+
+body{
+    /* padding: 0 2em; */
+}
+
+nav ul{
+    display: flex;
+    font-size: 1.3rem;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav ul li:nth-of-type(6){
+    margin-right: auto;
+}
+
+nav ul li:not(.left-part):not(:last-child){
+    margin-right: 1rem;
+}
+
+nav ul li:nth-of-type(7) {
+    margin-right: 3rem;
+}
+
+nav img {
+    border-radius: 50%;
+}
+
+.section-two {
+    display: flex;
+}
+.section-two div:nth-child(1){
+    flex-grow: 1.7;
+}
